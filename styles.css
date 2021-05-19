@@ -1,0 +1,27 @@
+.about-list{
+    list-style:none;
+}
+.about-list li{
+    border-left:solid .15rem #2980B9;
+    margin-bottom: 1rem;
+}
+img{
+    border-radius: 9%;
+}
+
+button a{
+    text-decoration: none;
+}
+button a:visited{
+    color:inherit;
+}
+
+button a:link{
+    color:inherit;
+}
+
+button a:active{
+    color:inherit;
+}
+.work-history-item{
+}
