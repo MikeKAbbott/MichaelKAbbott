@@ -408,6 +408,7 @@ fieldset{
     list-style: none;
     padding: 0
 }
+
 .mka-inline-list li{
     display: inline-block;
     line-height: 1;

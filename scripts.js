@@ -1,5 +1,8 @@
 //Michael Abbott
-//Basic clock made with p5js
+console.log("Oh jeez, did I mess something up? So sorry about this, please let me know by sending me an email! mikekabbott@gmail.com")
+
+
+
 let fade;
 let fadeRate = 7;
 
