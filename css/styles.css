@@ -1,6 +1,10 @@
 img{
     border-radius: 2%;
 }
+/* img:hover {
+    width: 600px;
+    height: 300px;
+  } */
 
 button a{
     text-decoration: none;
