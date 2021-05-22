@@ -103,22 +103,30 @@ fieldset{
 .mka-txt-color-grey{
     color:#34495E;
 }
+
 .mka-txt-color-blue{
     color:#2980B9;
 }
+
 .mka-txt-color-red{
     color:#e4485b;
 }
+
 .mka-txt-color-yellow{
     color:#F39C12;
 }
+
 .mka-txt-color-green{
+    color:#42776a;
+}
+.mka-txt-color-light-green{
     color:#3AD39F;
 }
 
 /* Background color pallet */
 .mka-bg-color-light-grey{
     background-color:#E5E7E9;
+    box-shadow:6px 12px #34495E;
 }
 .mka-bg-color-grey{
     background-color:#34495E;
@@ -133,6 +141,9 @@ fieldset{
     background-color:#F39C12;
 }
 .mka-bg-color-green{
+    background-color:#42776a;
+}
+.mka-bg-color-light-green{
     background-color:#3AD39F;
 }
 

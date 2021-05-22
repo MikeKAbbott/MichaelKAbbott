@@ -1,11 +1,12 @@
-img{
-    border-radius: 2%;
-}
-/* img:hover {
-    width: 600px;
-    height: 300px;
-  } */
 
+.link-arrow a{
+    color:#34495E;
+    text-decoration: none;
+}
+
+.link-arrow:hover a img{
+    transform: translateX(20px);
+}
 button a{
     text-decoration: none;
 }
