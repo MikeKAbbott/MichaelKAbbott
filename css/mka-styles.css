@@ -367,12 +367,14 @@ fieldset{
 /* grid item css */
 .mka-grid_item-xsm{
     padding-left:2rem;
+    padding-right:1.5rem;
     flex-basis: 33.3333%;
     max-width: 33.3333%;
     height:fit-content;
 }
 .mka-grid_item-sm{
     padding-left:2rem;
+    padding-right:1.5rem;
     flex-basis: 45.3333%;
     max-width: 55.3333%;
     height:fit-content;
@@ -380,6 +382,7 @@ fieldset{
 }
 .mka-grid_item-md{
     padding-left:2rem;
+    padding-right:1.5rem;
     flex-basis: 58.3333%;
     max-width: 58.3333%;
     height:fit-content;
@@ -392,6 +395,7 @@ fieldset{
 }
 .mka-grid_item-xlg{
     padding-left:2rem;
+    padding-right:1.5rem;
     flex-basis: 99.3333%;
     max-width: 99.3333%;
     height:fit-content;
@@ -426,4 +430,14 @@ fieldset{
     font-size: 1.2rem;
     margin-right: 1rem;
     margin-bottom: .5rem;
+}
+
+/* Flex */
+
+.mka-flex{
+    display: flex;
+}
+
+.mka-inline-flex{
+    display:inline-flex;
 }
