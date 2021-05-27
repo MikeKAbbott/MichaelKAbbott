@@ -21,6 +21,9 @@ fieldset{
 .mka-header{
     margin-left:3rem;
     margin-right:3rem;
+}
+
+.mka-header-contents{
     display:flex;
     justify-content: space-between;
 }
@@ -440,4 +443,88 @@ fieldset{
 
 .mka-inline-flex{
     display:inline-flex;
+}
+
+@media only screen and (max-width: 850px) {
+    .mka-header-contents{
+        display:block;
+    } 
+    .mka-grid *{
+        text-align: left;
+    }
+}
+
+/* Extra small devices (phones, 750px and down) */
+@media only screen and (max-width: 650px) {
+    .mka-grid *{
+        flex-basis: 100%;
+        max-width: 100%;
+    }    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .mka-grid *{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .mka-grid *{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mka-grid_item-xsm{
+        flex-basis: 33.3333%;
+        max-width: 33.3333%;
+    }
+    .mka-grid_item-sm{
+        flex-basis: 45.3333%;
+        max-width: 55.3333%;
+
+    }
+    .mka-grid_item-md{
+        flex-basis: 58.3333%;
+        max-width: 58.3333%;
+    }
+    .mka-grid_item-lg{
+        flex-basis: 75.3333%;
+        max-width: 75.3333%;
+    }
+    .mka-grid_item-xlg{
+        flex-basis: 99.3333%;
+        max-width: 99.3333%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .mka-grid_item-xsm{
+        flex-basis: 33.3333%;
+        max-width: 33.3333%;
+    }
+    .mka-grid_item-sm{
+        flex-basis: 45.3333%;
+        max-width: 55.3333%;
+
+    }
+    .mka-grid_item-md{
+        flex-basis: 58.3333%;
+        max-width: 58.3333%;
+    }
+    .mka-grid_item-lg{
+        flex-basis: 75.3333%;
+        max-width: 75.3333%;
+    }
+    .mka-grid_item-xlg{
+        flex-basis: 99.3333%;
+        max-width: 99.3333%;
+    }
 }
