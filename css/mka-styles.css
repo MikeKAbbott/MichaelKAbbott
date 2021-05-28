@@ -445,6 +445,8 @@ fieldset{
     display:inline-flex;
 }
 
+
+/* Header screen with width 850 and on down  */
 @media only screen and (max-width: 850px) {
     .mka-header-contents{
         display:block;
