@@ -371,8 +371,8 @@ fieldset{
 .mka-grid_item-xsm{
     padding-left:2rem;
     padding-right:1.5rem;
-    flex-basis: 33.3333%;
-    max-width: 33.3333%;
+    flex-basis: 28.3333%;
+    max-width: 28.3333%;
     height:fit-content;
 }
 .mka-grid_item-sm{
@@ -484,9 +484,10 @@ fieldset{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .mka-grid_item-xsm{
-        flex-basis: 33.3333%;
-        max-width: 33.3333%;
+        flex-basis: 28.3333%;
+        max-width: 28.3333%;
     }
+    
     .mka-grid_item-sm{
         flex-basis: 45.3333%;
         max-width: 55.3333%;
@@ -509,8 +510,8 @@ fieldset{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .mka-grid_item-xsm{
-        flex-basis: 33.3333%;
-        max-width: 33.3333%;
+        flex-basis: 28.3333%;
+        max-width: 28.3333%;
     }
     .mka-grid_item-sm{
         flex-basis: 45.3333%;
